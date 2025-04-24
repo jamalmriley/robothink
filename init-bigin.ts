@@ -34,7 +34,7 @@ async function apiRequest(
 Scope - Indicates the scope of the access request. This parameter informs the Bigin authorization server about the level of access the client is requesting. The following 2 lines must be copied to assist in generating a expiry code that will then be used to generate a required access code for the API request. Set the duration to 10 minutes.
 
 ZohoBigin.settings.emails.READ,ZohoBigin.send_mail.all.CREATE
-Programmatically Send emails from Bigin.
+Programmatically send emails from Bigin.
 
 Scope                               Description
 ZohoBigin.settings.emails.READ      - Get configured from-addresses
